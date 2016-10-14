@@ -11,14 +11,21 @@ body {
 .top-bar {
 	text-align: center;
 	background: gray;
-	font-size: 3em;
+	font-size: 7em;
 }
 .name {
 	text-align:center;
-	font-size: x-large;
+	font-size: 3em;
+	font-family: fertigo-script, cursive;
+	font-style: normal;
+	font-weight: 400;
 }
 .container {
-	margin: 20 10%;
+	margin: 0 10%;
+	padding-top: 40px;
+}
+.main {
+	background: ivory;
 }
 .box img {
 	display: block;

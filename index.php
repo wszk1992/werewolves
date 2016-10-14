@@ -12,15 +12,21 @@
 		<i id="back" class="fa fa-arrow-left" aria-hidden="true"></i>
 		<i id="title">Werewolves</i>
 	</div>
-	<div class="container">
-	<?php
-		foreach(glob("./images/characters/*.jpg") as $filename) { ?>
-			<div class="box">
-				<img src="<?php echo $filename?>" width="200" height="200">
-				<div class="name"><?php echo basename($filename, ".jpg").PHP_EOL?></div>
-			</div>	
-		<?php }
-	?>
+	<div class=>
+		<div class="container">
+		<?php
+			foreach(glob("./images/characters/*.jpg") as $filename) { ?>
+				<div class="box">
+					<img src="<?php echo $filename?>" width="200" height="200">
+					<div class="name"><?php echo basename($filename, ".jpg").PHP_EOL?></div>
+				</div>	
+			<?php }
+		?>
+		</div>
 	</div>
 </body>
+
+<script src="https://use.typekit.net/nur6vdq.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </html>
