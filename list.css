@@ -1,0 +1,35 @@
+body {
+	margin: auto;
+}
+.box {
+	width: 29%;
+	height: 250px;
+	margin: 12px;
+	display: inline-block;
+	position: relative;
+}
+.top-bar {
+	text-align: center;
+	background: gray;
+	font-size: 3em;
+}
+.name {
+	text-align:center;
+	font-size: x-large;
+}
+.container {
+	margin: 20 10%;
+}
+.box img {
+	display: block;
+	margin: auto;
+}
+
+#back {
+	float:left;
+	color: floralwhite;
+	margin-left: 10px;
+}
+#title {
+	color: floralwhite;
+}
